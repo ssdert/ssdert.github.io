@@ -1,6 +1,6 @@
 # project_0
 
-https://ssdert.githb.io
+https://ssdert.github.io
 
 Here I'm going to publish the code for my new project.
 
