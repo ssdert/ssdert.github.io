@@ -22,13 +22,15 @@ article {
   align-items: center;
 }
 
-a {
+.work_link{
+  padding: .2em;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 3em;
   color: black;
 }
 
 .exit {
   width: 2em;
   height: 2em;
+  background-color: #fff;
 }

@@ -26,7 +26,7 @@ h1 {
   display: flex;
   flex-flow: row nowrap;
 
-  font-size: 2em;
+  font-size: 3em;
 }
 
 h2 {
@@ -52,7 +52,8 @@ h2 {
   float: right;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.exit {
+  width: 2em;
+  height: 2em;
+  background-color: #fff;
 }
