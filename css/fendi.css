@@ -3,13 +3,17 @@
 }
 
 body {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
   font-family: sans-serif;
 }
 
 .one {
   display: flex;
-
-  margin-top: 5em;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
 }
@@ -20,5 +24,11 @@ img {
 }
 
 .one h1 {
-  display: flex;
+  width: 30%;
+  float: left;
+}
+
+.one p {
+  width: 70%;
+  float: right;
 }

@@ -30,7 +30,6 @@ h1 {
 }
 
 h2 {
-  
   border-bottom: 1px solid black;
 }
 
@@ -53,3 +52,7 @@ h2 {
   float: right;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
