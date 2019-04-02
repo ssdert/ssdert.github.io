@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+
+  font-family: sans-serif;
+  background-color: #E5E5E5;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin-right: 5em;
+  display: flex;
+  flex-flow: row nowrap;
+
+  font-size: 2em;
+}
+
+h2 {
+  
+  border-bottom: 1px solid black;
+}
+
+.edu {
+  display: flex;
+  flex-flow: column;
+}
+
+.edu-info {
+  border: 1px solid red;
+}
+
+.edu-info-year {
+  width: 30%;
+  float: left;
+}
+
+.edu-info-detail {
+  width: 70%;
+  float: right;
+}
+
