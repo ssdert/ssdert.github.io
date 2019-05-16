@@ -37,14 +37,12 @@ article {
 }
 
 h1 {
-  margin-right: 5em;
   margin-bottom: 0;
   display: flex;
   flex-flow: row nowrap;
 
   font-size: 2em;
 }
-
 
 .name {
   margin-top: 0;
@@ -129,8 +127,8 @@ h2 {
 
 /* -----------------FENDI------------------- */
 
-.one, .two, .three, .four{
-  max-width: 1200px;
+.one, .two, .three, .four, .five {
+  max-width: 100vw;
   margin: 2em 0 8em 0;
   display: flex;
   flex-flow: column;
@@ -223,7 +221,7 @@ a {
 }
 
 .dt_img_B, .dt_img_D {
-  margin-top: 2em;
+  margin-left: 2em;
 }
 
 .dt_img_C, .dt_img_D {
@@ -233,8 +231,48 @@ a {
   box-shadow: 10px 10px 7px -6px rgba(0,0,0,0.12);
 }
 
-.mag_1 {
-  border: 1px solid red;
+.four_1 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mag_1, .mag_5 {
+  width: 200px;
+  height: 250px;
+}
+
+.mag_2, .mag_3, .mag_4 {
+  width: 365px;
+  height:250px;
+}
+
+.magazine_1 {
+  margin-right: 12.8em;
+}
+
+.magazine_2 {
+  margin-top: .25em;
+  margin-left: 12.8em;
+}
+
+.digitaltypography {
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.five img {
+  margin: 2em .2em 2em .2em;
+  width: 192px;
+  height: 360px;
+}
+
+/* -----------------TheFork------------------- */
+
+.thefork .dt_img_A {
+  width: 173.5px;
+  height: 333px;
 }
 
 /* -----------------Connect------------------- */
