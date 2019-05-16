@@ -37,6 +37,7 @@ article {
 }
 
 h1 {
+  margin-right: 2em;
   margin-bottom: 0;
   display: flex;
   flex-flow: row nowrap;
