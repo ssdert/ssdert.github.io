@@ -92,10 +92,6 @@ h2 {
   flex-flow: column;
 }
 
-/* .edu-info {
-  border: 1px solid red;
-} */
-
 .edu-info-year {
   width: 30%;
   width: 100px;
@@ -125,10 +121,14 @@ h2 {
   color: transparent;
 }
 
+.img_me {
+  width: 60px;
+  height: auto;
+}
 
 /* -----------------FENDI------------------- */
 
-.one, .two, .three, .four, .five {
+.one, .two, .three, .four, .four_1, .five, .five_1 {
   max-width: 100vw;
   margin: 2em 0 8em 0;
   display: flex;
@@ -136,13 +136,11 @@ h2 {
   justify-content: center;
   align-items: center;
 
-/*   border: 1px solid green; */
 }
 
 img {
   width: 700px;
-  height: 500px;
-/*   box-shadow: 10px 10px 7px -6px rgba(0,0,0,0.12);  */
+  height: auto;
 }
 
 .p_1 {
@@ -176,6 +174,7 @@ img {
   width: 700px;
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 }
 
 .two p {
@@ -193,7 +192,7 @@ img {
   max-width: 700px;
 }
 
-.four img {
+.four_1 img {
   margin: 0 10px;
   width: 380px;
   height: 300px;
@@ -232,13 +231,6 @@ a {
   box-shadow: 10px 10px 7px -6px rgba(0,0,0,0.12);
 }
 
-.four_1 {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .mag_1, .mag_5 {
   width: 200px;
   height: 250px;
@@ -263,7 +255,7 @@ a {
   align-items: center;
 }
 
-.five img {
+.five_1 img {
   margin: 2em .2em 2em .2em;
   width: 192px;
   height: 360px;
@@ -271,10 +263,35 @@ a {
 
 /* -----------------TheFork------------------- */
 
-.thefork .dt_img_A {
+.tf_gif {
+  margin: 0 2em;
   width: 173.5px;
   height: 333px;
+  box-shadow: 10px 10px 7px -6px rgba(0,0,0,0.12);
 }
+
+.tf_img {
+  box-shadow: 10px 10px 7px -6px rgba(0,0,0,0.12);
+}
+
+/* -----------------Charcoal & Ink time------------------- */
+
+.img_wide {
+  margin-bottom: 2em;
+  width: 800px;
+  height: auto;
+}
+
+.inktime {
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.inktime img {
+  width: auto;
+  height: 360px;
+}
+
 
 /* -----------------Connect------------------- */
 
@@ -294,7 +311,6 @@ a {
   border: solid 1px rgba(0,0,0,0.15);
   border-radius: 6px;
   
-  /* box-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
   box-shadow: 10px 10px 7px -6px rgba(0,0,0,0.12);
 }
 
