@@ -34,6 +34,22 @@ article {
   display: flex;
   flex-flow: column;
   align-items: center;
+
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+  animation-duration: .5s;
+  
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 h1 {
@@ -122,8 +138,16 @@ h2 {
 }
 
 .img_me {
-  width: 60px;
+  width: 100px;
   height: auto;
+  margin-top: 5em;
+  margin-left: 3em;
+  border-radius: 70px;
+}
+
+.note {
+  font-size: .7em;
+  max-width: 400px;
 }
 
 /* -----------------FENDI------------------- */
@@ -178,14 +202,16 @@ img {
 }
 
 .two p {
-  margin-top: 2em; 
   max-width: 700px;
 }
 
 .three p {
   margin-left: 1em;
+  max-width: 700px;
+}
 
-  max-width: 300px;
+.four p {
+  max-width: 700px;
 }
 
 .img_C_c, .img_D_d {
@@ -259,6 +285,10 @@ a {
   margin: 2em .2em 2em .2em;
   width: 192px;
   height: 360px;
+}
+
+.five_1 p {
+  max-width: 700px;
 }
 
 /* -----------------TheFork------------------- */
