@@ -150,6 +150,11 @@ h2 {
   max-width: 400px;
 }
 
+a:hover { 
+  color: white;
+  transition-delay: .1s;
+}
+
 /* -----------------FENDI------------------- */
 
 .one, .two, .three, .four, .four_1, .five, .five_1 {
