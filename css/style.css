@@ -16,13 +16,14 @@ body {
   background-color: #E5E5E5;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 250px) {
 
-  article, h1{
+  article, h1 {
     display: flex;
     flex-flow: column;
     align-items: center;
   }
+
 }
 
 article {
